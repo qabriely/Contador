@@ -45,15 +45,31 @@ class ContadorState extends State<Contador> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text(
-          'Aplicación de contador',
-          style: TextStyle(
-            fontSize: 30,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
+        Container(
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+          decoration: BoxDecoration(
+            border: Border(
+              top: BorderSide(
+                color: Color(0xFF5C4274), // Color morado
+                width: 3, // Grosor de la línea superior
+              ),
+              bottom: BorderSide(
+                color: Color(0xFF5C4274), // Color morado
+                width: 3, // Grosor de la línea inferior
+              ),
+            ),
+          ),
+          child: Text(
+            'Aplicación de contador',
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
           ),
         ),
         const SizedBox(height: 20),
+
         // Contador
         Container(
           width: 200,
