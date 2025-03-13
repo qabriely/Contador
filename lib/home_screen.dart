@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'contador.dart';
+import 'contador.dart'; // Importamos el contador
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

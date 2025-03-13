@@ -115,6 +115,7 @@ class ContadorState extends State<Contador> {
     );
   }
 
+  // Función para crear el botón de reset
   Widget _crearBotonReset() {
     return Container(
       decoration: BoxDecoration(
