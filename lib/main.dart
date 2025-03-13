@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_screen.dart'; // Importamos HomeScreen, que es la pantalla principal
+import 'home_screen.dart'; // Importamos HomeScreen, ya que es nuestra pantalla principal
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(), // Establecemos HomeScreen como la pantalla principal
+      home: HomeScreen(), // HomeScreen como nuestra pantalla principal
     );
   }
 }
